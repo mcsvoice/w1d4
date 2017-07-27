@@ -2,9 +2,21 @@ var countdownGenerator = function (x) {
 
   var count = x;
 
-  function countdown(time) {
-    inputTime--
-    console.log(time);
+  return function countdown() {
+    if (count > 0) {
+      console.log("T-Minus" + count + "...");
+      count--
+      return count;
+    } else if (count < 0) {
+      console.log("Rockets already gone, bub");
+      count--
+      return count;
+    } else {
+      console.log("BLAST OFF!");
+      count--
+      return count;
+    }
+
   }
 };
 
