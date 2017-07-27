@@ -1,11 +1,5 @@
 var countdownGenerator = function (x) {
-
-  var textSnips = ['Rocket\'s already gone, bub', 'Blast Off!', 'T-Minus 3', '']
-
-  return function(){
-
-  }
-
+  /* your code here */
 };
 
 var countdown = countdownGenerator(3);
@@ -15,3 +9,55 @@ countdown(); // T-minus 1...
 countdown(); // Blast Off!
 countdown(); // Rockets already gone, bub!
 countdown(); // Rockets already gone, bub!
+
+
+// var countdownGenerator = function (timer) {
+
+
+
+//   return function countdown(dtime){
+//       var result = [];
+//       var textSnips = ['Rocket\'s already gone, bub', 'Blast Off!', 'T-Minus 1', 'T-Minus 2', 'T-Minus 3']
+
+//       if (dtime !== -1) {
+//         dtime -= 1
+//       } else {
+//         textSnips[0];
+//       }
+//     console.log(dtime);
+//     result.push(textSnips[dtime]);
+//     console.log(result);
+//   }
+
+// //   return function() {
+// //     dieNum += 1
+// //     return list[dieNum];
+// //   }
+
+// };
+
+// var countdown = countdownGenerator(3);
+// countdown(); // T-minus 3...
+// countdown(); // T-minus 2...
+// countdown(); // T-minus 1...
+// countdown(); // Blast Off!
+// countdown(); // Rockets already gone, bub!
+// countdown(); // Rockets already gone, bub!
+
+
+// function makeLoadedDie() {
+//   var list = [5, 4, 6, 1, 6, 4, 2, 3, 3, 5];
+//   var dieNum = -1;
+
+//   return function() {
+//     dieNum += 1
+//     return list[dieNum];s
+//   }
+
+// }
+
+// var rollLoadedDie = makeLoadedDie();
+
+// console.log(rollLoadedDie());  // 5
+// console.log(rollLoadedDie());  // 4
+// console.log(rollLoadedDie());  // 6
