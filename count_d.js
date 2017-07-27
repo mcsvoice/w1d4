@@ -1,14 +1,36 @@
 var countdownGenerator = function (x) {
-  /* your code here */
+
+  var count = x;
+
+  function countdown(time) {
+    inputTime--
+    console.log(time);
+  }
 };
 
+  //countdowngenerator(3) is going in to Countdown as the leftmost variable?
+
 var countdown = countdownGenerator(3);
+console.log(countdown);
 countdown(); // T-minus 3...
 countdown(); // T-minus 2...
 countdown(); // T-minus 1...
 countdown(); // Blast Off!
 countdown(); // Rockets already gone, bub!
 countdown(); // Rockets already gone, bub!
+
+
+// function Clock() {
+//          counter--;
+//          if (counter == -2) {
+//              say = "BLASTOFF!!!";
+//             }
+//         if (counter == -3) {
+//              clearInterval(int);
+//              document.write("<img src = 'rocket19.jpg' />");
+//              }
+//       }
+
 
 
 // var countdownGenerator = function (timer) {
